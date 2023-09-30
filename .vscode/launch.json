@@ -1,0 +1,12 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "nrf-connect",
+			"request": "launch",
+			"name": "Launch Finall_peripheral_PPG\\build",
+			"config": "c:/ncs/Project/Finall_peripheral_PPG/build",
+			"runToEntryPoint": "main"
+		}
+	]
+}

@@ -4,3 +4,4 @@ find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(Finall_peripheral_PPG)
 
 target_sources(app PRIVATE src/main.c)
+zephyr_include_directories(src/max30102)
